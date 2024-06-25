@@ -1,16 +1,30 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
+import React from "react"
+import BossTable from "./components/Boss-Info"
+import HealthBar from "./components/Boss-Health"
+import MenuButtons from "./components/MenButs"
+import RankInfo from "./components/Rank-Info"
 
-function App() {
-  const [count, setCount] = useState(0)
+
+export default function App() {
+
 
   return (
-    <>
-      <div className='text-red-500'>hello world</div>
-    </>
+    <div >
+  {/* BOSS */}
+    <BossTable />
+    <HealthBar/>
+
+  {/*BEAR HITBOX*/}
+      <div className="w-[290px] h-[339px] absolute left-[50px] top-[255px] bg-red-600 opacity-50 z-40 cursor-pointer" ></div>  
+      <img src="src/assets/bear.png" className="w-[304px] h-[406px] absolute left-[50px] top-[225px] object-cover" />
+  
+  {/* UI */}
+    <RankInfo/>
+    <MenuButtons/>  
+
+    <img src="src/assets/bg.png" className="w-[378px] h-[629px]  object-cover absolute top-[89px] z-[-1]" />
+    </div>
   )
 }
 
-export default App
+

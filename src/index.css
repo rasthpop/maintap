@@ -1,3 +1,15 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+@font-face {
+    font-family: Exo;
+    src: url(./fonts/Exo2-Black.woff);
+  }
+
+html{
+    font-family: Exo;
+    /* -webkit-text-stroke-width: 1px; */
+    -webkit-text-stroke-color: #513922;
+}
