@@ -25,7 +25,7 @@ export default function Leaderboard(){
     </p>
     
   </div>
-  <img src="src/assets/star.png" className="w-0 h-0 absolute left-[169.5px] top-[252.5px] object-cover" />
+  <img src="star.png" className="w-0 h-0 absolute left-[169.5px] top-[252.5px] object-cover" />
   <img
     src="звезда-2.png"
     className="w-[50px] h-[50px] absolute left-[162.5px] top-[156.5px] object-cover"

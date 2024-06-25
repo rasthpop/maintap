@@ -8,7 +8,7 @@ export default function RankInfo(){
       3,900 /100,000
     </p>
     <img
-      src="src/assets/бронза-1.png"
+      src="бронза-1.png"
       className="w-[50px] h-[42px] absolute left-[45.5px] top-[98.5px] object-cover"
     />
     <p className="absolute left-[63px] top-[113px] text-[15px] font-bold text-center text-[#ededed]">
@@ -32,11 +32,11 @@ export default function RankInfo(){
     </div>
   </div>
   <img
-    src="src/assets/монета-1.png"
+    src="монета-1.png"
     className="w-[23px] h-[27px] absolute left-[165.5px] top-[108.5px] object-none"
   />
   <img
-    src="src/assets/монета-2.png"
+    src="монета-2.png"
     className="w-[23px] h-6 absolute left-[298.5px] top-[108.5px] object-cover"
   />
 </div>
