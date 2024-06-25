@@ -2,7 +2,7 @@ import React from "react";
 
 export default function HealthBar(){
     return(
-    <div className="w-[328px] h-[26px]">
+    <div className="w-[328px] h-[26px] top-[-89px] absolute">
   <div className="w-[328px] h-[26px]">
     <img
       src="rectangle-34.png"

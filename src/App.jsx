@@ -11,6 +11,7 @@ export default function App(props) {
 
   return (
     <div >
+  <main >
   {/* BOSS */}
     <BossTable />
     <HealthBar/>
@@ -28,8 +29,8 @@ export default function App(props) {
     <Leaderboard
      
     />} 
-
-    <img src="bg.png" className="w-[378px] h-[629px]  object-cover absolute top-[89px] z-[-1]" />
+  </main>
+    <img src="bg.png" className="w-[378px] h-[629px]  object-cover absolute top-0 z-[-1]" />
     </div>
   )
 }

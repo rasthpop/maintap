@@ -13,3 +13,10 @@ html{
     /* -webkit-text-stroke-width: 1px; */
     -webkit-text-stroke-color: #513922;
 }
+
+body{
+    margin:0;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}

@@ -2,7 +2,7 @@ import React from "react";
 
 export default function BossTable(){
     return(
-        <div className="w-[329px] h-[61px]">
+        <div className="w-[329px] h-[61px] top-[-89px] absolute">
   <div className="w-[329px] h-[61px]">
     <img
       src="Rectangle41.png"

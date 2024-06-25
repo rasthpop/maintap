@@ -2,7 +2,7 @@ import React from "react";
 
 export default function RankInfo(){
     return(
-        <div className="w-[290px] h-[42px]">
+        <div className="w-[290px] h-[42px] absolute top-[-89px]">
   <div className="w-[290px] h-[42px]">
     <p className="absolute left-[99px] top-[104px] text-[25px] font-bold text-center text-[#ededed]">
       3,900 /100,000

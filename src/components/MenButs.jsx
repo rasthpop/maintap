@@ -6,7 +6,7 @@ export default function MenuButtons({setLead}){
     }
 
     return(
-        <div className="w-[382px] h-[84.42px]">
+        <div className="w-[382px] h-[84.42px] absolute top-[-89px]">
         <div className="w-[382px] h-[84.42px]">
           
           {/* MENU BUTTONS HITBOXES */}
